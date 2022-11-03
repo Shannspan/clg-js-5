@@ -1,4 +1,5 @@
-
+// ATTEMPT TO 'LINK' GAME TO BEACHCOMBNG PAGE - FAILED
+//function sttgame () {
 
 //TIC TAC TOE ref youtube 'Coding with Russ' BEACHCOMBING PAGE
 //Create array to hold board data
@@ -127,6 +128,4 @@ cellElements.forEach(cell => {
 //Reset result text
 resultElement.innerText = ""
 });
-
-}    
-
+//}

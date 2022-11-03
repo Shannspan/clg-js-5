@@ -1,3 +1,43 @@
+//API = Application Programming Interface
+//Type 1: third party API's, allow us to access functionality designed by someone else (and hosted on web) on our own website. Eg to display weather, or a map etc. Covered in future lesson
+
+//Third party API's that may be of interest for js project - weather for the area which is arid, maps to locate isolated beaches (as adjunct to specific info about the location)
+
+//Type 2: browser API (or web API). Allows us to extend the functionality of the browser (Chrome, Firefox etc).
+//Most commonly used browser API is the DOM = Document Object Model. Used to manipulate HTML & CSS, therefore what the user sees (structure,style & content).
+//2 x commonly used browser API's are: window API & document API (child of window API).
+//Window object = contains info about the browser window displaying the webpage.
+//Document object = represents web page loaded in browser.
+
+//Lesson 5 code along examples
+//Window methods (window object has inbuilt methods)
+function timeoutBeach1() {
+  console.log("This beach is first, but delayed 4 seconds");
+}
+
+function timeoutBeach2() {
+  console.log("This beach is second, but delayed 1 second");
+}
+
+setTimeout(timeoutBeach1, 4000);
+setTimeout(timeoutBeach2, 1000);
+
+console.log("No delay - let's go to the beach!")
+
+console.log(window.location);
+//and to achieve the same result you can drop out 'window'
+console.log(location);
+
+console.log(history);
+console.log(history.length);
+
+//Local storage API. Stores data without expiration date (similar to cookies but superior storage capacity)
+//Session storage API. Stores data for one windows session only. Useful for security.
+
+//Document methods
+
+//const para = document.querySelector('p')
+
 //Function for Index page Select your favourite shell
 
 const select = document.querySelector('select');
@@ -20,7 +60,7 @@ function setShell() {
     para.textContent = '';
   }
 }
-
+//
 const restartBtn = document.getElementById("restart");
 
 
