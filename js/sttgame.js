@@ -1,3 +1,5 @@
+
+
 //TIC TAC TOE ref youtube 'Coding with Russ' BEACHCOMBING PAGE
 //Create array to hold board data
 let boardData = [
@@ -125,4 +127,6 @@ cellElements.forEach(cell => {
 //Reset result text
 resultElement.innerText = ""
 });
+
+}    
 

@@ -1,13 +1,3 @@
-const restartBtn = document.getElementById("restart");
-
-
-function colorChangeBtn() {  
-restartBtn.style.color = "plum"; 
-}
-colorChangeBtn();
- 
-
-
 //Function for Index page Select your favourite shell
 
 const select = document.querySelector('select');
@@ -30,3 +20,13 @@ function setShell() {
     para.textContent = '';
   }
 }
+
+const restartBtn = document.getElementById("restart");
+
+
+function colorChangeBtn() {  
+restartBtn.style.color = "plum"; 
+}
+colorChangeBtn();
+ 
+
