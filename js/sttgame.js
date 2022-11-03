@@ -14,7 +14,6 @@ const cellElements = document.querySelectorAll(".cell");
 //Pull in result text from DOM
 const resultElement = document.getElementById("result");
 
-
 //add event listener
 cellElements.forEach((cell, index) => {
   cell.addEventListener("click", () => {
@@ -126,5 +125,5 @@ cellElements.forEach(cell => {
 });
 //Reset result text
 resultElement.innerText = ""
-})
+});
 
