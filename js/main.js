@@ -34,7 +34,13 @@ console.log(history.length);
 //Local storage API. Stores data without expiration date (similar to cookies but superior storage capacity)
 //Session storage API. Stores data for one windows session only. Useful for security.
 
-//Document methods
+//Using webGL API (canvas API)
+
+const canvas = document.getElementById("canvas");
+const ctx = canvas.getContext("2d");
+
+ctx.fillStyle = "plum";
+ctx.fillRect(10, 10, 150, 100);
 
 //const para = document.querySelector('p')
 
@@ -61,12 +67,6 @@ function setShell() {
   }
 }
 //
-const restartBtn = document.getElementById("restart");
 
-
-function colorChangeBtn() {  
-restartBtn.style.color = "plum"; 
-}
-colorChangeBtn();
  
 

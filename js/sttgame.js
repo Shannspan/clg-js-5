@@ -1,6 +1,3 @@
-// ATTEMPT TO 'LINK' GAME TO BEACHCOMBNG PAGE - FAILED
-//function sttgame () {
-
 //TIC TAC TOE ref youtube 'Coding with Russ' BEACHCOMBING PAGE
 //Create array to hold board data
 let boardData = [
@@ -16,6 +13,7 @@ let gameOver = false;
 const cellElements = document.querySelectorAll(".cell");
 //Pull in result text from DOM
 const resultElement = document.getElementById("result");
+
 
 //add event listener
 cellElements.forEach((cell, index) => {
@@ -112,6 +110,7 @@ function endGame(winner) {
 //Restart game
 const restartButton = document.getElementById("restart");
 //Add event listener to restart button
+
 restartButton.addEventListener("click", () => { 
  //reset game variables
  boardData = [
@@ -127,5 +126,5 @@ cellElements.forEach(cell => {
 });
 //Reset result text
 resultElement.innerText = ""
-});
-//}
+})
+
